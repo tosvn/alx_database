@@ -1,1 +1,1 @@
-This repo is for alx sql prjects
+This repo is for alx sql projects
