@@ -1,2 +1,2 @@
 --To creat a database
-CREAET DATABSE hbtn_0c_0;
+CREAET DATABASE IF NOT EXISTS hbtn_0c_0;
