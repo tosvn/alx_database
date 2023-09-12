@@ -1,10 +1,9 @@
--- Listing all cities in California from the database
-SELECT cities.name
+-- listing all cities of California in db htbn_0d_usa
+SELECT cities.id, cities.name
 FROM cities
-WHERE cities.state_id = (
-    SELECT states.id
+WHERE state_id = (
+    SELECT id
     FROM states
-    WHERE states.name = 'California'
+    WHERE name = 'California'
 )
 ORDER BY cities.id ASC;
-
